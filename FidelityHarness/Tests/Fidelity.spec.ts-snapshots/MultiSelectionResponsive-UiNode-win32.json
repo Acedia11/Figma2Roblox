@@ -1,0 +1,110 @@
+{
+  "Assets": {
+    "0a1c4d57005916026ca599ba6192c43ee9fb915cf8058accee8f7d8d04fa5c36": {
+      "DecalId": 900000,
+      "ImageId": 1900000
+    },
+    "f3f815bb21c54a79a7bdad64b0f85e147ce580b2246716444cdf664bda384a15": {
+      "DecalId": 900001,
+      "ImageId": 1900001
+    }
+  },
+  "BakeHashes": {
+    "multi-selection/left": "0a1c4d57005916026ca599ba6192c43ee9fb915cf8058accee8f7d8d04fa5c36",
+    "multi-selection/right": "f3f815bb21c54a79a7bdad64b0f85e147ce580b2246716444cdf664bda384a15"
+  },
+  "Name": "MultiSelectionResponsive",
+  "ReferenceFrameSize": {
+    "X": 250,
+    "Y": 90
+  },
+  "Stats": {
+    "ImageCount": 2,
+    "NodeCount": 3
+  },
+  "Tree": {
+    "AnchorPoint": {
+      "X": 0.5,
+      "Y": 0.5
+    },
+    "Children": [
+      {
+        "FigmaId": "multi-selection/left",
+        "ImageHash": "0a1c4d57005916026ca599ba6192c43ee9fb915cf8058accee8f7d8d04fa5c36",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 0,
+        "Name": "Left Panel",
+        "Position": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.4
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 1
+          }
+        }
+      },
+      {
+        "FigmaId": "multi-selection/right",
+        "ImageHash": "f3f815bb21c54a79a7bdad64b0f85e147ce580b2246716444cdf664bda384a15",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 1,
+        "Name": "Right Panel",
+        "Position": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.52
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.3333333333333333
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.48
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.6666666666666666
+          }
+        }
+      }
+    ],
+    "FigmaId": "synthetic:multi-selection/left,multi-selection/right",
+    "Kind": "Frame",
+    "Name": "Root",
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0.5
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0.5
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 0,
+        "Scale": 1
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 1
+      }
+    }
+  }
+}

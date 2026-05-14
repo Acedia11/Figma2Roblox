@@ -1,0 +1,54 @@
+{
+  "Nodes": [
+    {
+      "id": "auto-layout/root",
+      "name": "Stack Panel",
+      "type": "FRAME",
+      "width": 240,
+      "height": 180,
+      "absoluteBoundingBox": { "x": 0, "y": 0, "width": 240, "height": 180 },
+      "absoluteRenderBounds": { "x": 0, "y": 0, "width": 240, "height": 180 },
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 12,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "exportAsset": "Assets/Panel.png",
+      "children": [
+        {
+          "id": "auto-layout/item-a",
+          "name": "Item A",
+          "type": "FRAME",
+          "width": 180,
+          "height": 34,
+          "absoluteBoundingBox": { "x": 30, "y": 16, "width": 180, "height": 34 },
+          "absoluteRenderBounds": { "x": 30, "y": 16, "width": 180, "height": 34 },
+          "exportAsset": "Assets/ItemA.png"
+        },
+        {
+          "id": "auto-layout/item-b",
+          "name": "Item B",
+          "type": "FRAME",
+          "width": 180,
+          "height": 34,
+          "absoluteBoundingBox": { "x": 30, "y": 62, "width": 180, "height": 34 },
+          "absoluteRenderBounds": { "x": 30, "y": 62, "width": 180, "height": 34 },
+          "exportAsset": "Assets/ItemB.png"
+        },
+        {
+          "id": "auto-layout/item-c",
+          "name": "Item C",
+          "type": "FRAME",
+          "width": 180,
+          "height": 34,
+          "absoluteBoundingBox": { "x": 30, "y": 108, "width": 180, "height": 34 },
+          "absoluteRenderBounds": { "x": 30, "y": 108, "width": 180, "height": 34 },
+          "exportAsset": "Assets/ItemC.png"
+        }
+      ]
+    }
+  ]
+}

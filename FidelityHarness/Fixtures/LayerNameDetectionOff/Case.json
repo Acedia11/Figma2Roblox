@@ -1,0 +1,11 @@
+{
+  "Name": "LayerNameDetectionOff",
+  "SelectionIds": ["layer-name-off/root"],
+  "Options": {
+    "BakeTextNodes": false,
+    "LayerNameDetection": false,
+    "ResponsiveScale": false
+  },
+  "ExportScale": 2,
+  "Visual": false
+}

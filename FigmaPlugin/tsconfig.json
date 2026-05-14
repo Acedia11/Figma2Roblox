@@ -1,0 +1,11 @@
+{
+  "extends": "@create-figma-plugin/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./Src/*"]
+    },
+    "types": ["@figma/plugin-typings"]
+  },
+  "include": ["Src/**/*.ts", "Src/**/*.tsx"]
+}

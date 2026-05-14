@@ -1,0 +1,115 @@
+{
+  "Assets": {
+    "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886": {
+      "DecalId": 900000,
+      "ImageId": 1900000
+    }
+  },
+  "BakeHashes": {
+    "layer-name-off/root": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886",
+    "layer-name-off/scroll-name": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886"
+  },
+  "Name": "LayerNameDetectionOff",
+  "ReferenceFrameSize": {
+    "X": 240,
+    "Y": 160
+  },
+  "Stats": {
+    "ImageCount": 2,
+    "NodeCount": 3
+  },
+  "Tree": {
+    "Children": [
+      {
+        "FigmaId": "layer-name-off/button-name",
+        "Kind": "TextLabel",
+        "LayoutOrder": 0,
+        "Name": "Buy CTA Button",
+        "Position": {
+          "X": {
+            "Offset": 20,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 22,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 96,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 24,
+            "Scale": 0
+          }
+        },
+        "Text": {
+          "AutomaticSize": "None",
+          "FontFace": {
+            "Family": "Montserrat"
+          },
+          "LineHeight": 1,
+          "Text": "Buy",
+          "TextSize": 16,
+          "TextWrapped": true,
+          "TextXAlignment": "Left",
+          "TextYAlignment": "Top"
+        }
+      },
+      {
+        "ClipsDescendants": true,
+        "FigmaId": "layer-name-off/scroll-name",
+        "ImageHash": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 1,
+        "Name": "Inventory Scroll",
+        "Position": {
+          "X": {
+            "Offset": 20,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 60,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 160,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 80,
+            "Scale": 0
+          }
+        }
+      }
+    ],
+    "FigmaId": "layer-name-off/root",
+    "ImageHash": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886",
+    "Kind": "ImageLabel",
+    "Name": "Root",
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 240,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 160,
+        "Scale": 0
+      }
+    }
+  }
+}

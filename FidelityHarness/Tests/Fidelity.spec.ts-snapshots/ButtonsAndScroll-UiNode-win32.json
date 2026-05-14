@@ -1,0 +1,179 @@
+{
+  "Assets": {
+    "4ae739142ea2a9500f2e34bb1dbf74988ad7cbd9d0c20775e03cc5eebbe4461b": {
+      "DecalId": 900000,
+      "ImageId": 1900000
+    },
+    "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886": {
+      "DecalId": 900001,
+      "ImageId": 1900001
+    },
+    "ef2d05860e8b6a947c20413a2e1981ac98cc06f5acb04e4b238019a8e8b5b2b1": {
+      "DecalId": 900002,
+      "ImageId": 1900002
+    },
+    "f656d0bf1dd6066bb571fa6c9c047aee3d7ce93143f71fe6490d75d1d23a28c1": {
+      "DecalId": 900003,
+      "ImageId": 1900003
+    }
+  },
+  "BakeHashes": {
+    "buttons-scroll/cta": "f656d0bf1dd6066bb571fa6c9c047aee3d7ce93143f71fe6490d75d1d23a28c1",
+    "buttons-scroll/item-a": "4ae739142ea2a9500f2e34bb1dbf74988ad7cbd9d0c20775e03cc5eebbe4461b",
+    "buttons-scroll/item-b": "ef2d05860e8b6a947c20413a2e1981ac98cc06f5acb04e4b238019a8e8b5b2b1",
+    "buttons-scroll/root": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886"
+  },
+  "Name": "ButtonsAndScroll",
+  "ReferenceFrameSize": {
+    "X": 320,
+    "Y": 220
+  },
+  "Stats": {
+    "ImageCount": 4,
+    "NodeCount": 5
+  },
+  "Tree": {
+    "Children": [
+      {
+        "BackgroundColor": {
+          "A": 1,
+          "B": 0.18,
+          "G": 0.11,
+          "R": 0.08
+        },
+        "Children": [
+          {
+            "FigmaId": "buttons-scroll/item-a",
+            "ImageHash": "4ae739142ea2a9500f2e34bb1dbf74988ad7cbd9d0c20775e03cc5eebbe4461b",
+            "Kind": "ImageLabel",
+            "LayoutOrder": 0,
+            "Name": "Scroll Item A",
+            "Position": {
+              "X": {
+                "Offset": 12,
+                "Scale": 0
+              },
+              "Y": {
+                "Offset": 14,
+                "Scale": 0
+              }
+            },
+            "Size": {
+              "X": {
+                "Offset": 120,
+                "Scale": 0
+              },
+              "Y": {
+                "Offset": 42,
+                "Scale": 0
+              }
+            }
+          },
+          {
+            "FigmaId": "buttons-scroll/item-b",
+            "ImageHash": "ef2d05860e8b6a947c20413a2e1981ac98cc06f5acb04e4b238019a8e8b5b2b1",
+            "Kind": "ImageLabel",
+            "LayoutOrder": 1,
+            "Name": "Scroll Item B",
+            "Position": {
+              "X": {
+                "Offset": 12,
+                "Scale": 0
+              },
+              "Y": {
+                "Offset": 68,
+                "Scale": 0
+              }
+            },
+            "Size": {
+              "X": {
+                "Offset": 120,
+                "Scale": 0
+              },
+              "Y": {
+                "Offset": 42,
+                "Scale": 0
+              }
+            }
+          }
+        ],
+        "ClipsDescendants": true,
+        "FigmaId": "buttons-scroll/list",
+        "Kind": "ScrollingFrame",
+        "LayoutOrder": 0,
+        "Name": "Inventory Scroll",
+        "Position": {
+          "X": {
+            "Offset": 20,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 20,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 160,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 160,
+            "Scale": 0
+          }
+        }
+      },
+      {
+        "FigmaId": "buttons-scroll/cta",
+        "ImageHash": "f656d0bf1dd6066bb571fa6c9c047aee3d7ce93143f71fe6490d75d1d23a28c1",
+        "Kind": "ImageButton",
+        "LayoutOrder": 1,
+        "Name": "Buy CTA Button",
+        "Position": {
+          "X": {
+            "Offset": 208,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 150,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 92,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 40,
+            "Scale": 0
+          }
+        }
+      }
+    ],
+    "FigmaId": "buttons-scroll/root",
+    "ImageHash": "d672ccb16eeba956d8b1f52b78cdb6571febf1ae1a71e808df73c17639344886",
+    "Kind": "ImageLabel",
+    "Name": "Root",
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 320,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 220,
+        "Scale": 0
+      }
+    }
+  }
+}

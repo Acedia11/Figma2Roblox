@@ -1,0 +1,15 @@
+{
+  "Name": "AutoLayoutStack",
+  "SelectionIds": ["auto-layout/root"],
+  "Options": {
+    "BakeTextNodes": true,
+    "ResponsiveScale": true
+  },
+  "ExportScale": 2,
+  "Visual": true,
+  "Preview": {
+    "Width": 240,
+    "Height": 180,
+    "Background": "#10141a"
+  }
+}

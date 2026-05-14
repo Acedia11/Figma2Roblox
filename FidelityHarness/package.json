@@ -1,0 +1,17 @@
+{
+  "name": "figmatoroblox-fidelity-harness",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "Test": "npm run CheckTypes && playwright test",
+    "Update": "npm run CheckTypes && playwright test --update-snapshots",
+    "CheckTypes": "tsc --noEmit",
+    "GenerateAssets": "node Scripts/GenerateFixtureAssets.mjs"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.125.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2",
+    "typescript": "^6.0.3"
+  }
+}

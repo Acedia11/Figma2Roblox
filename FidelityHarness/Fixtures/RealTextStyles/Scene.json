@@ -1,0 +1,43 @@
+{
+  "Nodes": [
+    {
+      "id": "real-text/title",
+      "name": "Mixed Text",
+      "type": "TEXT",
+      "width": 260,
+      "height": 54,
+      "absoluteBoundingBox": { "x": 0, "y": 0, "width": 260, "height": 54 },
+      "absoluteRenderBounds": { "x": 0, "y": 0, "width": 260, "height": 54 },
+      "characters": "Sale now",
+      "fontName": { "family": "Inter", "style": "Regular" },
+      "fontSize": 18,
+      "lineHeight": { "unit": "PIXELS", "value": 24 },
+      "textAlignHorizontal": "CENTER",
+      "textAlignVertical": "TOP",
+      "textAutoResize": "HEIGHT",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE",
+      "fills": [{ "type": "SOLID", "visible": true, "opacity": 1, "color": { "r": 0.92, "g": 0.94, "b": 0.98 } }],
+      "styledTextSegments": [
+        {
+          "characters": "Sale",
+          "fontName": { "family": "Inter", "style": "Bold" },
+          "fontSize": 18,
+          "fontWeight": 700,
+          "textCase": "UPPER",
+          "textDecoration": "UNDERLINE",
+          "fills": [{ "type": "SOLID", "visible": true, "opacity": 1, "color": { "r": 0.95, "g": 0.18, "b": 0.2 } }]
+        },
+        {
+          "characters": " now",
+          "fontName": { "family": "Roboto Mono", "style": "Italic" },
+          "fontSize": 16,
+          "fontWeight": 400,
+          "textCase": "ORIGINAL",
+          "textDecoration": "NONE",
+          "fills": [{ "type": "SOLID", "visible": true, "opacity": 1, "color": { "r": 0.3, "g": 0.8, "b": 0.62 } }]
+        }
+      ]
+    }
+  ]
+}

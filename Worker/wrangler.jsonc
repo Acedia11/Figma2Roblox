@@ -1,0 +1,43 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "figma-to-roblox-worker",
+  "main": "Src/Worker.ts",
+  "compatibility_date": "2026-04-25",
+  "durable_objects": {
+    "bindings": [
+      { "name": "PAIR_SESSIONS", "class_name": "PairSession" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["PairSession"] }
+  ],
+  "kv_namespaces": [
+    { "binding": "AUTH_STATE", "id": "auth-state-dev-placeholder" }
+  ],
+  "vars": {
+    "RobloxClientId": "8400817234833495861",
+    "RobloxRedirectUri": "http://localhost:8787/Auth/Callback"
+  },
+  "observability": { "enabled": true },
+  "env": {
+    "production": {
+      "name": "figma-to-roblox-worker",
+      "routes": [
+        { "pattern": "acedian.com/FigmaToRoblox/Api/*", "zone_name": "acedian.com" }
+      ],
+      "durable_objects": {
+        "bindings": [
+          { "name": "PAIR_SESSIONS", "class_name": "PairSession" }
+        ]
+      },
+      "kv_namespaces": [
+        { "binding": "AUTH_STATE", "id": "42d870fe7b494389874a5eda2cad5420" }
+      ],
+      "vars": {
+        "RobloxClientId": "8400817234833495861",
+        "RobloxRedirectUri": "https://acedian.com/FigmaToRoblox/Api/Auth/Callback"
+      },
+      "observability": { "enabled": true }
+    }
+  }
+}

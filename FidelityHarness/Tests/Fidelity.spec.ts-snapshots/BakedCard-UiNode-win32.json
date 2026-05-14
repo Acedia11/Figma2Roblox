@@ -1,0 +1,176 @@
+{
+  "Assets": {
+    "85b83f198839a025cb47c960bc469de6d4e5408c50a0a4d744adb5bca0ea77b1": {
+      "DecalId": 900000,
+      "ImageId": 1900000
+    },
+    "a3d637826acc043d186231572036309fae3366f34f0e444d97a3fc5752d3f147": {
+      "DecalId": 900001,
+      "ImageId": 1900001
+    },
+    "ea62cd85df5f77dbd8ce4a03e3ef12eccfe5a719d007118b22eedee85418bf50": {
+      "DecalId": 900002,
+      "ImageId": 1900002
+    },
+    "f26f6350363a76cfa81520ae50ed2a7386767af764ef87abd6618ec8b6185dba": {
+      "DecalId": 900003,
+      "ImageId": 1900003
+    },
+    "fa5ef237605c73e41d40a0f9cad09a4bfd549904b6c945dfc013d8cd13a3404b": {
+      "DecalId": 900004,
+      "ImageId": 1900004
+    }
+  },
+  "BakeHashes": {
+    "baked-card/badge": "a3d637826acc043d186231572036309fae3366f34f0e444d97a3fc5752d3f147",
+    "baked-card/header": "ea62cd85df5f77dbd8ce4a03e3ef12eccfe5a719d007118b22eedee85418bf50",
+    "baked-card/metric": "85b83f198839a025cb47c960bc469de6d4e5408c50a0a4d744adb5bca0ea77b1",
+    "baked-card/root": "fa5ef237605c73e41d40a0f9cad09a4bfd549904b6c945dfc013d8cd13a3404b",
+    "baked-card/title": "f26f6350363a76cfa81520ae50ed2a7386767af764ef87abd6618ec8b6185dba"
+  },
+  "Name": "BakedCard",
+  "ReferenceFrameSize": {
+    "X": 300,
+    "Y": 180
+  },
+  "Stats": {
+    "ImageCount": 5,
+    "NodeCount": 5
+  },
+  "Tree": {
+    "Children": [
+      {
+        "FigmaId": "baked-card/header",
+        "ImageHash": "ea62cd85df5f77dbd8ce4a03e3ef12eccfe5a719d007118b22eedee85418bf50",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 0,
+        "Name": "Header Band",
+        "Position": {
+          "X": {
+            "Offset": 16,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 16,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 268,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 44,
+            "Scale": 0
+          }
+        }
+      },
+      {
+        "FigmaId": "baked-card/title",
+        "ImageHash": "f26f6350363a76cfa81520ae50ed2a7386767af764ef87abd6618ec8b6185dba",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 1,
+        "Name": "Card Title",
+        "Position": {
+          "X": {
+            "Offset": 32,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 30,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 154,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 18,
+            "Scale": 0
+          }
+        }
+      },
+      {
+        "FigmaId": "baked-card/metric",
+        "ImageHash": "85b83f198839a025cb47c960bc469de6d4e5408c50a0a4d744adb5bca0ea77b1",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 2,
+        "Name": "Metric Text",
+        "Position": {
+          "X": {
+            "Offset": 32,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 94,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 116,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 30,
+            "Scale": 0
+          }
+        }
+      },
+      {
+        "FigmaId": "baked-card/badge",
+        "ImageHash": "a3d637826acc043d186231572036309fae3366f34f0e444d97a3fc5752d3f147",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 3,
+        "Name": "Status Badge",
+        "Position": {
+          "X": {
+            "Offset": 194,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 92,
+            "Scale": 0
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 74,
+            "Scale": 0
+          },
+          "Y": {
+            "Offset": 28,
+            "Scale": 0
+          }
+        }
+      }
+    ],
+    "FigmaId": "baked-card/root",
+    "ImageHash": "fa5ef237605c73e41d40a0f9cad09a4bfd549904b6c945dfc013d8cd13a3404b",
+    "Kind": "ImageLabel",
+    "Name": "Root",
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 300,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 180,
+        "Scale": 0
+      }
+    }
+  }
+}

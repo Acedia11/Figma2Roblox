@@ -1,0 +1,38 @@
+{
+  "Nodes": [
+    {
+      "id": "layer-name-off/root",
+      "name": "Name Detection Off Panel",
+      "type": "FRAME",
+      "width": 240,
+      "height": 160,
+      "absoluteBoundingBox": { "x": 0, "y": 0, "width": 240, "height": 160 },
+      "absoluteRenderBounds": { "x": 0, "y": 0, "width": 240, "height": 160 },
+      "exportAsset": "../ButtonsAndScroll/Assets/RootPanel.png",
+      "children": [
+        {
+          "id": "layer-name-off/button-name",
+          "name": "Buy CTA Button",
+          "type": "TEXT",
+          "width": 96,
+          "height": 24,
+          "absoluteBoundingBox": { "x": 20, "y": 22, "width": 96, "height": 24 },
+          "absoluteRenderBounds": { "x": 20, "y": 22, "width": 96, "height": 24 },
+          "characters": "Buy",
+          "fontSize": 16
+        },
+        {
+          "id": "layer-name-off/scroll-name",
+          "name": "Inventory Scroll",
+          "type": "FRAME",
+          "width": 160,
+          "height": 80,
+          "absoluteBoundingBox": { "x": 20, "y": 60, "width": 160, "height": 80 },
+          "absoluteRenderBounds": { "x": 20, "y": 60, "width": 160, "height": 80 },
+          "clipsContent": true,
+          "exportAsset": "../ButtonsAndScroll/Assets/RootPanel.png"
+        }
+      ]
+    }
+  ]
+}

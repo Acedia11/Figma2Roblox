@@ -1,0 +1,24 @@
+{
+  "Nodes": [
+    {
+      "id": "multi-selection/left",
+      "name": "Left Panel",
+      "type": "FRAME",
+      "width": 100,
+      "height": 90,
+      "absoluteBoundingBox": { "x": 50, "y": 80, "width": 100, "height": 90 },
+      "absoluteRenderBounds": { "x": 50, "y": 80, "width": 100, "height": 90 },
+      "exportAsset": "Assets/LeftPanel.png"
+    },
+    {
+      "id": "multi-selection/right",
+      "name": "Right Panel",
+      "type": "FRAME",
+      "width": 120,
+      "height": 60,
+      "absoluteBoundingBox": { "x": 180, "y": 110, "width": 120, "height": 60 },
+      "absoluteRenderBounds": { "x": 180, "y": 110, "width": 120, "height": 60 },
+      "exportAsset": "Assets/RightPanel.png"
+    }
+  ]
+}

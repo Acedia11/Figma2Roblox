@@ -1,0 +1,15 @@
+{
+  "Name": "MultiSelectionResponsive",
+  "SelectionIds": ["multi-selection/left", "multi-selection/right"],
+  "Options": {
+    "BakeTextNodes": true,
+    "ResponsiveScale": true
+  },
+  "ExportScale": 2,
+  "Visual": true,
+  "Preview": {
+    "Width": 250,
+    "Height": 90,
+    "Background": "#0f1217"
+  }
+}

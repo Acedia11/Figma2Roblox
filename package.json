@@ -1,0 +1,10 @@
+{
+  "name": "figma-to-roblox",
+  "private": true,
+  "scripts": {
+    "Build:Release": "node Scripts/BuildRelease.mjs",
+    "Test": "node Scripts/RunChecks.mjs",
+    "Test:Fidelity": "npm --prefix FidelityHarness run Test",
+    "Update:Fidelity": "npm --prefix FidelityHarness run Update"
+  }
+}

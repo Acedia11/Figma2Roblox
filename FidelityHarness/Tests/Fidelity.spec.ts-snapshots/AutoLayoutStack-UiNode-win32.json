@@ -1,0 +1,176 @@
+{
+  "Assets": {
+    "248120b4ed0e69d03b86aee575d5ea8e12bd9c5bebeec417f1b9f87308c435b3": {
+      "DecalId": 900000,
+      "ImageId": 1900000
+    },
+    "7d4f754b8f0fe6a853c06d9debd4ecf912c92de386d7cbd2548311c853d942e8": {
+      "DecalId": 900001,
+      "ImageId": 1900001
+    },
+    "892e24ff09f70ef5ad9106edc91bf8591c1b88072e4839b51c743ffac702542e": {
+      "DecalId": 900002,
+      "ImageId": 1900002
+    },
+    "c5de6130da0d33f639611f45468e9a48ced133ed9730214b801009dffe1fb7de": {
+      "DecalId": 900003,
+      "ImageId": 1900003
+    }
+  },
+  "BakeHashes": {
+    "auto-layout/item-a": "248120b4ed0e69d03b86aee575d5ea8e12bd9c5bebeec417f1b9f87308c435b3",
+    "auto-layout/item-b": "c5de6130da0d33f639611f45468e9a48ced133ed9730214b801009dffe1fb7de",
+    "auto-layout/item-c": "892e24ff09f70ef5ad9106edc91bf8591c1b88072e4839b51c743ffac702542e",
+    "auto-layout/root": "7d4f754b8f0fe6a853c06d9debd4ecf912c92de386d7cbd2548311c853d942e8"
+  },
+  "Name": "AutoLayoutStack",
+  "ReferenceFrameSize": {
+    "X": 240,
+    "Y": 180
+  },
+  "Stats": {
+    "ImageCount": 4,
+    "NodeCount": 4
+  },
+  "Tree": {
+    "AnchorPoint": {
+      "X": 0.5,
+      "Y": 0.5
+    },
+    "Children": [
+      {
+        "FigmaId": "auto-layout/item-a",
+        "ImageHash": "248120b4ed0e69d03b86aee575d5ea8e12bd9c5bebeec417f1b9f87308c435b3",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 0,
+        "Name": "Item A",
+        "Position": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.125
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.08888888888888889
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.75
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.18888888888888888
+          }
+        }
+      },
+      {
+        "FigmaId": "auto-layout/item-b",
+        "ImageHash": "c5de6130da0d33f639611f45468e9a48ced133ed9730214b801009dffe1fb7de",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 1,
+        "Name": "Item B",
+        "Position": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.125
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.34444444444444444
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.75
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.18888888888888888
+          }
+        }
+      },
+      {
+        "FigmaId": "auto-layout/item-c",
+        "ImageHash": "892e24ff09f70ef5ad9106edc91bf8591c1b88072e4839b51c743ffac702542e",
+        "Kind": "ImageLabel",
+        "LayoutOrder": 2,
+        "Name": "Item C",
+        "Position": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.125
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.6
+          }
+        },
+        "Size": {
+          "X": {
+            "Offset": 0,
+            "Scale": 0.75
+          },
+          "Y": {
+            "Offset": 0,
+            "Scale": 0.18888888888888888
+          }
+        }
+      }
+    ],
+    "FigmaId": "auto-layout/root",
+    "ImageHash": "7d4f754b8f0fe6a853c06d9debd4ecf912c92de386d7cbd2548311c853d942e8",
+    "Kind": "ImageLabel",
+    "Layout": {
+      "FillDirection": "Vertical",
+      "HorizontalAlignment": "Center",
+      "Padding": {
+        "Offset": 0,
+        "Scale": 0.06666666666666667
+      },
+      "Type": "List",
+      "VerticalAlignment": "Top"
+    },
+    "Name": "Root",
+    "Padding": {
+      "Bottom": {
+        "Offset": 0,
+        "Scale": 0.08888888888888889
+      },
+      "Left": {
+        "Offset": 0,
+        "Scale": 0.08333333333333333
+      },
+      "Right": {
+        "Offset": 0,
+        "Scale": 0.08333333333333333
+      },
+      "Top": {
+        "Offset": 0,
+        "Scale": 0.08888888888888889
+      }
+    },
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0.5
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0.5
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 0,
+        "Scale": 1
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 1
+      }
+    }
+  }
+}

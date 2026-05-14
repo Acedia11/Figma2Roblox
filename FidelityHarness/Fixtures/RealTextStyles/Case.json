@@ -1,0 +1,9 @@
+{
+  "Name": "RealTextStyles",
+  "SelectionIds": ["real-text/title"],
+  "Options": {
+    "BakeTextNodes": false,
+    "ResponsiveScale": false
+  },
+  "Visual": false
+}

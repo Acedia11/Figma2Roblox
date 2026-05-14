@@ -1,0 +1,14 @@
+{
+  "name": "FigmaToRoblox",
+  "tree": {
+    "$path": "Src/FigmaToRoblox.plugin.luau",
+    "Auth": { "$path": "Src/Auth.luau" },
+    "Poller": { "$path": "Src/Poller.luau" },
+    "Worker": { "$path": "Src/Worker.luau" },
+    "Builder": { "$path": "Src/Builder" },
+    "Responsive": { "$path": "Src/Responsive" },
+    "Assets": { "$path": "Src/Assets" },
+    "Ui": { "$path": "Src/Ui" },
+    "Vendor": { "$path": "Src/Vendor" }
+  }
+}

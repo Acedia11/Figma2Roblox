@@ -1,0 +1,40 @@
+{
+  "name": "figmatoroblox-figma-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Figma plugin half of FigmaToRoblox: signs in with Roblox, walks selected frames, pushes the UiNode tree to the companion Roblox Studio plugin via the acedian.com worker.",
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "dependencies": {
+    "@create-figma-plugin/ui": "^4.0.3",
+    "@create-figma-plugin/utilities": "^4.0.3",
+    "js-sha256": "^0.11.1",
+    "preact": "^10.22.0"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^4.0.3",
+    "@create-figma-plugin/tsconfig": "^4.0.3",
+    "@figma/plugin-typings": "^1.103.0",
+    "typescript": "^5.5.0"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "name": "FigmaToRoblox",
+    "main": "Src/Main.ts",
+    "ui": "Src/Ui.tsx",
+    "documentAccess": "dynamic-page",
+    "networkAccess": {
+      "allowedDomains": [
+        "https://acedian.com/"
+      ],
+      "devAllowedDomains": [
+        "http://localhost:8787/"
+      ],
+      "reasoning": "Sign in with Roblox and push selected frames to the companion Roblox Studio plugin via the FigmaToRoblox worker."
+    }
+  }
+}

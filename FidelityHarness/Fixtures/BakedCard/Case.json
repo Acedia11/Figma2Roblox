@@ -1,0 +1,15 @@
+{
+  "Name": "BakedCard",
+  "SelectionIds": ["baked-card/root"],
+  "Options": {
+    "BakeTextNodes": true,
+    "ResponsiveScale": false
+  },
+  "ExportScale": 2,
+  "Visual": true,
+  "Preview": {
+    "Width": 320,
+    "Height": 220,
+    "Background": "#111318"
+  }
+}

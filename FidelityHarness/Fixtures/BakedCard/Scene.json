@@ -1,0 +1,63 @@
+{
+  "Nodes": [
+    {
+      "id": "baked-card/root",
+      "name": "Dashboard Card",
+      "type": "FRAME",
+      "width": 300,
+      "height": 180,
+      "absoluteBoundingBox": { "x": 10, "y": 20, "width": 300, "height": 180 },
+      "absoluteRenderBounds": { "x": 10, "y": 20, "width": 300, "height": 180 },
+      "fills": [{ "type": "SOLID", "visible": true, "opacity": 1, "color": { "r": 0.1216, "g": 0.1373, "b": 0.1765 } }],
+      "exportAsset": "Assets/CardPanel.png",
+      "children": [
+        {
+          "id": "baked-card/header",
+          "name": "Header Band",
+          "type": "FRAME",
+          "width": 268,
+          "height": 44,
+          "absoluteBoundingBox": { "x": 26, "y": 36, "width": 268, "height": 44 },
+          "absoluteRenderBounds": { "x": 26, "y": 36, "width": 268, "height": 44 },
+          "exportAsset": "Assets/HeaderBand.png"
+        },
+        {
+          "id": "baked-card/title",
+          "name": "Card Title",
+          "type": "TEXT",
+          "width": 154,
+          "height": 18,
+          "absoluteBoundingBox": { "x": 42, "y": 50, "width": 154, "height": 18 },
+          "absoluteRenderBounds": { "x": 42, "y": 50, "width": 154, "height": 18 },
+          "characters": "Revenue",
+          "fontName": { "family": "Inter", "style": "Semi Bold" },
+          "fontSize": 18,
+          "exportAsset": "Assets/TitleText.png"
+        },
+        {
+          "id": "baked-card/metric",
+          "name": "Metric Text",
+          "type": "TEXT",
+          "width": 116,
+          "height": 30,
+          "absoluteBoundingBox": { "x": 42, "y": 114, "width": 116, "height": 30 },
+          "absoluteRenderBounds": { "x": 42, "y": 114, "width": 116, "height": 30 },
+          "characters": "42.8K",
+          "fontName": { "family": "Inter", "style": "Bold" },
+          "fontSize": 30,
+          "exportAsset": "Assets/MetricText.png"
+        },
+        {
+          "id": "baked-card/badge",
+          "name": "Status Badge",
+          "type": "FRAME",
+          "width": 74,
+          "height": 28,
+          "absoluteBoundingBox": { "x": 204, "y": 112, "width": 74, "height": 28 },
+          "absoluteRenderBounds": { "x": 204, "y": 112, "width": 74, "height": 28 },
+          "exportAsset": "Assets/Badge.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Assets": {},
+  "BakeHashes": {},
+  "Name": "RealTextStyles",
+  "ReferenceFrameSize": {
+    "X": 260,
+    "Y": 54
+  },
+  "Stats": {
+    "ImageCount": 0,
+    "NodeCount": 1
+  },
+  "Tree": {
+    "FigmaId": "real-text/title",
+    "Kind": "TextLabel",
+    "Name": "Root",
+    "Position": {
+      "X": {
+        "Offset": 0,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 0,
+        "Scale": 0
+      }
+    },
+    "Size": {
+      "X": {
+        "Offset": 260,
+        "Scale": 0
+      },
+      "Y": {
+        "Offset": 54,
+        "Scale": 0
+      }
+    },
+    "Text": {
+      "AutomaticSize": "Y",
+      "FontFace": {
+        "Family": "Montserrat"
+      },
+      "LineHeight": 1.333,
+      "RichText": true,
+      "Text": "<u><b><font color=\"rgb(242,46,51)\">SALE</font></b></u><i><font color=\"rgb(77,204,158)\" size=\"16\"> now</font></i>",
+      "TextColor": {
+        "A": 1,
+        "B": 0.98,
+        "G": 0.94,
+        "R": 0.92
+      },
+      "TextSize": 18,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Top"
+    }
+  }
+}
