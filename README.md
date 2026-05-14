@@ -20,7 +20,7 @@ You need:
    - macOS: double-click `InstallFigmaToRoblox.command`
 5. The installer opens the Figma plugin folder and prints the `manifest.json` path.
 6. In Figma desktop, go to `Plugins > Development > Import new plugin from manifest...` and pick that `manifest.json`.
-7. Open Roblox Studio, open the FigmaToRoblox plugin, and sign in.
+7. Open Roblox Studio, open the FigmaToRoblox plugin, and sign in. (make sure you actually SELECT your account when in the oauth flow)
 8. In Figma, open `Plugins > Development > FigmaToRoblox` and sign in with the same Roblox account.
 9. In Studio, click `Enable sync to this place`.
 10. In Figma, select UI and click `Sync to Roblox`.
